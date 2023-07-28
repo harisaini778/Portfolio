@@ -49,9 +49,12 @@ const Home = () => {
     <div className="home-container">
       <Row>
         <Col xs={12} md={12} lg={6}>
-          <img src={img2} alt="img1" className="img1-home" />
+          <div className="img1-home" >
+         <img src={img2} alt="img1" />
+          </div>
+          
         </Col>
-        <Col xs={12} md={12} lg={5} >
+        <Col xs={12} md={12} lg={5} className="intro-des" >
           <Stack gap={3}>
             <div className="modal-home">
               <h2>Welcome To Hari's Profile</h2>
