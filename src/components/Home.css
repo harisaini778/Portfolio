@@ -74,7 +74,7 @@
 
 @media(max-width:576px) {
     .img1-home {
-        transform: scale(0.9);
+        transform: scale(1);
         margin-top: 10px !important;
 
     }
