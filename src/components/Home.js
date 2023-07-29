@@ -58,7 +58,7 @@ const Home = () => {
             <div className="modal-home">
               <h>Welcome To Hari's Profile</h>
             </div>
-            <div className="flex header-home-div">
+            <div>
               <p
                 className="header-sub-title"
                 ref={wordRef}
