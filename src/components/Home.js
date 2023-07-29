@@ -56,7 +56,7 @@ const Home = () => {
         <Col xs={12} md={12} lg={5} className="intro-des">
           <Stack gap={3}>
             <div className="modal-home">
-              <h2>Welcome To Hari's Profile</h2>
+              <h>Welcome To Hari's Profile</h>
             </div>
             <div className="flex header-home-div">
               <p

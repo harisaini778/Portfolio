@@ -7,13 +7,12 @@
 }
 
 .modal-home {
-    background-color: rgba(76, 30, 30, 0.1) !important;
     color: white;
     margin-top: 30px !important;
-    width: 80% !important;
+    width: 90% !important;
     margin-right: 40%;
     font-weight: bold !important;
-    font-size: 50px !important;
+    font-size: 40px !important;
 }
 
 
@@ -35,19 +34,31 @@
     }
 }
 
-
+@media(max-width:576px){
+    .img1-home {
+            display: flex;
+            justify-content: center;
+            transform: scale(0.95);
+            animation: scaleFadeIn 1s ease-in-out, scrollAnimation 10s linear infinite;
+        }
+    
+        @keyframes scaleFadeIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+    
+            100% {
+                opacity: 1;
+                transform: scale(1.1);
+            }
+        }
+}
 
 
 
 @import 'https://fonts.googleapis.com/css?family=Roboto';
 
-h2,
-a,
-p {
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-}
 
 .blink {
     animation: blink 0.5s infinite;
@@ -70,6 +81,18 @@ p {
     padding: 0.1em;
     white-space: normal;
     overflow-wrap: break-word;
+    text-align: start !important;
+}
+@media(max-width:576px) {
+    .header-sub-title {
+            color: aqua;
+            font-size: 50px;
+            font-weight: bolder;
+            padding: 0.1em;
+            white-space: normal;
+            overflow-wrap: break-word;
+            text-align: center !important;
+        }
 }
 
 
@@ -80,5 +103,20 @@ p {
      margin-left: 10px !important;
      margin-right: 10px !important;
      text-align: start !important;
+     font-size:larger;
+     color: white;
+ }
+
+ @media(max-width:576px){
+    .self-des {
+            display: flex;
+            justify-content: center;
+            align-self: flex-start !important;
+            margin-left: 10px !important;
+            margin-right: 10px !important;
+            text-align: center !important;
+            font-size: larger;
+            color: white;
+        }
  }
 
