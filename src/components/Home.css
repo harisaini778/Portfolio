@@ -14,6 +14,14 @@
     font-weight: bold !important;
     font-size: 40px !important;
 }
+@media(max-width:576px){
+    .modal-home {
+            color: white;
+            font-weight: bold !important;
+            font-size:x-large;
+            text-align: center;
+        }
+}
 
 
 .img1-home {
@@ -38,7 +46,7 @@
     .img1-home {
             display: flex;
             justify-content: center;
-            transform: scale(0.95);
+            transform: scale(0.9);
             animation: scaleFadeIn 1s ease-in-out, scrollAnimation 10s linear infinite;
         }
     
@@ -86,8 +94,8 @@
 @media(max-width:576px) {
     .header-sub-title {
             color: aqua;
-            font-size: 50px;
-            font-weight: bolder;
+            font-size:45px!important;
+            font-weight: bolder !important;
             padding: 0.1em;
             white-space: normal;
             overflow-wrap: break-word;
@@ -105,6 +113,8 @@
      text-align: start !important;
      font-size:larger;
      color: white;
+    white-space: normal;
+    overflow-wrap: break-word;
  }
 
  @media(max-width:576px){
@@ -117,6 +127,8 @@
             text-align: center !important;
             font-size: larger;
             color: white;
+            white-space: normal;
+            overflow-wrap: break-word;
         }
  }
 
