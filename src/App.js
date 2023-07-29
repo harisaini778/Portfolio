@@ -2,6 +2,7 @@ import './App.css';
 import Header from "./components/Header";
 import Home from './components/Home';
 import Skills from './components/Skills';
+import Project from './components/Project';
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       <Header />
       <Home />
-      <Skills/>
+      <Skills />
+      <Project/>
     </div>
   );
 }
