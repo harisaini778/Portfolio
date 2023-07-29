@@ -4,10 +4,17 @@ import { Card } from "react-bootstrap";
 
 const Skills = () => {
   const skillsData = [
-    { name: 'HTML', percentage: 90 },
-    { name: 'CSS', percentage: 80 },
-    { name: 'JavaScript', percentage: 75 },
-    { name: 'React', percentage: 70 },
+    { name: 'HTML', percentage: 99 },
+    { name: 'CSS', percentage: 98 },
+    {name: 'Java',percentage:98},
+    { name: 'Java Script', percentage: 95 },
+    {name: 'jQuery',percentage:98},
+    {name: 'Bootstrap',percentage:98},
+    {name: 'React', percentage: 90 },
+    { name: 'React-Bootstrap', percentage: 98 },
+    { name: 'Next Js', percentage: 98 },
+    { name: 'Bootstrap', percentage: 98 },
+    { name: 'Firebase', percentage: 98 },
   ];
 
   const [initialized, setInitialized] = useState(false);
