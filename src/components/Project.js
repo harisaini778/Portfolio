@@ -45,6 +45,16 @@ const Project = () => {
                     >
                       Check Link
                     </Button>
+                    <Button
+                      variant="outline-info"
+                      size="lg"
+                      as="a"
+                      href="https://hari-e-commercewebsite.vercel.app/Home"
+                      target="_blank"
+                      className="m-2" 
+                    >
+                      Clone Git
+                    </Button>
                   </div>
                 </Card.Body>
               </Card>
@@ -71,6 +81,16 @@ const Project = () => {
                      className="m-2"                  
                     >
                       Check Link
+                    </Button>
+                    <Button
+                      variant="outline-info"
+                      size="lg"
+                      as="a"
+                      href="https://hari-e-commercewebsite.vercel.app/Home"
+                      target="_blank"
+                      className="m-2" 
+                    >
+                      Clone Git
                     </Button>
                   </div>
                 </Card.Body>
