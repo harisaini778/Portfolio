@@ -32,3 +32,16 @@
     background-color: #aaa;
     /* Change to the color of your choice */
 }
+.carousel-items-project{
+    display:flex !important;
+    justify-content: center !important;
+}
+.card-body-project{
+    color : white !important;
+    font-size: 20px !important;
+}
+.card-title-project{
+    color :white !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+}
