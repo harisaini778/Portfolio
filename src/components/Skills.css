@@ -5,10 +5,10 @@
     justify-content: center;
     background-color: black;
     padding-top: 50px !important;
-    padding-bottom: 40px !important;
+    padding-bottom: 50px !important;
 }
 .skill-card{
-    width: 70vw;
+    width: 80vw;
     border-width: 3px !important ;
 }
 @media(max-width:576px){
@@ -17,9 +17,10 @@
         }
 }
 .skill-card-header{
-    font-size: 40px;
-    color: white !important;
-    font-weight: bold !important;
+        color: white !important;
+        font-size: 40px !important;
+        font-weight: bold !important;
+        border-bottom: 5px solid white;
 }
 .skills-box {
     width: 100%;
@@ -30,7 +31,7 @@
     background-color: black;
     border-radius: 100px;
     overflow: hidden;
-    border: 2px solid rgb(23, 162, 184);;
+    border: 2px solid rgb(0, 183, 255);;
 }
 
 .fill {
@@ -58,7 +59,7 @@
         background-color: black;
         border-radius: 100px;
         overflow: hidden;
-        border: 2px solid rgb(23, 162, 184);
+        border: 2px solid rgb(0, 183, 255);
     }
 
     .skills-title {

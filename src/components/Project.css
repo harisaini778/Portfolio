@@ -1,47 +1,61 @@
 /* project.css */
 
-/* Step 1: Apply black background, add border, and set width */
 .project-container {
     background-color: black !important;
     border: 3px solid rgb(0, 183, 255);
-    border-radius: 5px;;
-    /* Replace #fff with the color of your choice */
-    width: 70vw;
-    margin: 0 auto;
-    /* This centers the container horizontally */
-    padding: 20px;
-    /* Optional: Add padding for spacing */
+    border-radius: 5px;
+    width: 80vw;
+    margin-top: 60px !important;
     box-sizing: border-box;
-    /* Optional: Ensures padding is included in the width */
 }
 
-/* Step 2: Limit the Carousel width to 100% of its parent (.project-container) */
+@media (max-width: 576px) {
+    .project-container {
+        background-color: black !important;
+        border: 3px solid rgb(0, 183, 255);
+        border-radius: 5px;
+        width: 100vw;
+        margin: 0 auto;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}
+
 .carousel-container {
     width: 100%;
     background-color: black !important;
-    /* This will make the Carousel fill its parent's width */
 }
 
-/* Optional: Customize the Carousel navigation indicators */
 .carousel-indicators li {
     background-color: #fff;
-    /* Change to the color of your choice */
 }
 
 .carousel-indicators .active {
     background-color: #aaa;
-    /* Change to the color of your choice */
 }
-.carousel-items-project{
-    display:flex !important;
+
+.carousel-items-project {
+    display: flex !important;
     justify-content: center !important;
 }
-.card-body-project{
-    color : white !important;
+
+.card-body-project {
+    color: white !important;
     font-size: 20px !important;
 }
-.card-title-project{
-    color :white !important;
+
+.card-title-project {
+    color: white !important;
     font-size: 25px !important;
     font-weight: bold !important;
+}
+
+.projects-heading {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+h{
+    border-bottom: 5px solid white;
 }

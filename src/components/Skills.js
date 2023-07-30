@@ -41,11 +41,13 @@ const Skills = () => {
   }, []);
 
   return (
-      <div className="skill-outer-div">
+    <div className="bg-black">
+
+       <h className="skill-card-header">Skills</h>
+    
+    <div className="skill-outer-div">
+     
           <Card className="skill-card bg-black border-info">
-              <Card.Header className="skill-card-header">
-                  Skills
-              </Card.Header>
               <Card.Body>
             {skillsData.map((skill, index) => (
         <div key={index} className="skills-title">
@@ -65,7 +67,8 @@ const Skills = () => {
           </Card>
 
 
-    </div>
+      </div>
+      </div>
   );
 };
 
