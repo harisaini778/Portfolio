@@ -43,7 +43,7 @@ const Project = () => {
                       <Col sm={6} md={4} lg={3} key={index}>
                           <Card className="card-project mb-1" >
                               <Card.Header className="card-project-header">
-                                  {project.header}
+                                  <h5>{project.header}</h5>
                               </Card.Header>
                               <Card.Body className="card-project-body">
                                   <Card.Img src={project.image} variant="top" />
