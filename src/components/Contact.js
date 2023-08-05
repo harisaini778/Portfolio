@@ -18,10 +18,10 @@ const Contact = () => {
             <Container className="contact-details-container">
                 <Card className="contact-details-card">
                             <Card.Body>
-                                <h4 className="card-body-heading" ><span className="m-4" style={{color:"aqua"}}><BsCircleFill/></span>Hari Kumar Saini</h4>
-                                <h4 className="card-body-heading"><span className="m-4" style={{color:"aqua"}}><BsCardText/></span>harikumarsaini608@gmail.com</h4>
-                                <h4 className="card-body-heading"><span className="m-4" style={{color:"aqua"}}><BsPhoneFlip/></span>+91-7985027344</h4>
-                                <h4 className="card-body-heading"> <span className="m-4" style={{color:"aqua"}}><BsMapFill/></span>Balrampur,Uttar Pradesh,India</h4>
+                                <h3 className="card-body-heading" ><span className="m-4" style={{color:"aqua"}}><BsCircleFill/></span>Hari Kumar Saini</h3>
+                                <h3 className="card-body-heading"><span className="m-4" style={{color:"aqua"}}><BsCardText/></span>harikumarsaini608@gmail.com</h3>
+                                <h3 className="card-body-heading"><span className="m-4" style={{color:"aqua"}}><BsPhoneFlip/></span>+91-7985027344</h3>
+                                <h3 className="card-body-heading"> <span className="m-4" style={{color:"aqua"}}><BsMapFill/></span>Balrampur,Uttar Pradesh,India</h3>
                             </Card.Body>
                             </Card>        
             </Container>
