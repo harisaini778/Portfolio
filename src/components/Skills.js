@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./Skills.css";
 import { Card } from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import skillsimg from "./assets/skills.png";
 
 const Skills = () => {
   const skillsData = [
@@ -43,7 +45,11 @@ const Skills = () => {
   return (
     <div className="bg-black">
 
-       <h className="skill-card-header">Skills</h>
+      <h className="skill-card-header">Skills</h>
+      <Container>
+        <img src={skillsimg} alt="skills" className="img1-skill"/>
+      </Container>
+        
     
     <div className="skill-outer-div">
      
