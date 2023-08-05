@@ -1,0 +1,91 @@
+
+.main-container-contact{
+    background-color: black;
+    overflow-x: hidden !important;
+}
+.contact-heading-container{
+    padding-top: 50px !important;
+}
+h {
+    color: white !important;
+    font-size: 40px !important;
+    font-weight: bold !important;
+    border-bottom: 5px solid white;
+}
+.contact-form-container{
+   width:70vw !important;
+   border : 3px solid rgb(0, 183, 255);
+   border-radius: 10px;
+   margin:30px;
+}
+.contact-form{
+    color:white;
+    font-size: 20px;
+    text-align: start;
+    margin: 20px !important;
+    line-height: 2.0 !important;
+    font-weight: bold;
+}
+.contact-details-card{
+    background-color: black !important;
+    color: white !important;
+    border: 3px solid rgb(0, 183, 255) !important;
+    border-radius: 10px !important;
+    text-align: start !important;
+}
+.contact-details-container{
+    width:70vw !important;
+}
+.card-body-heading{
+    line-height: 2 !important;
+}
+@media(max-width:576px){
+    .contact-details-container {
+            width: 95vw !important;
+        }
+}
+@media(max-width:576px){
+    .contact-form-container {
+            width: 95vw !important;
+        }
+}
+.img1-contact {
+    height: 45vw;
+    width: 45vw;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    animation: scaleFadeIn 1s ease-in-out, scrollAnimation 10s linear infinite;
+}
+
+@keyframes scaleFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+
+@media(max-width:576px) {
+    .img1-contact {
+        height: 90vw !important;
+        width: 90vw !important;
+        border-radius: 50%;
+        animation: scaleFadeIn 1s ease-in-out, scrollAnimation 10s linear infinite;
+    }
+
+    @keyframes scaleFadeIn {
+        0% {
+            opacity: 0;
+            transform: scale(0.5);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+    }
+}

@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Home from './components/Home';
 import Skills from './components/Skills';
 import Project from './components/Project';
+import Contact from './components/Contact';
+
 
 
 function App() {
@@ -11,7 +13,8 @@ function App() {
       <Header />
       <Home />
       <Skills />
-      <Project/>
+      <Project />
+      <Contact/>
     </div>
   );
 }
