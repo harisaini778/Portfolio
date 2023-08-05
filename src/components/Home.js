@@ -38,7 +38,7 @@ const Home = () => {
         }
       }
 
-      const typingSpeed = isDeleting ? 200 : 200;
+      const typingSpeed = isDeleting ? 150 : 200;
       setTimeout(typingEffect, typingSpeed);
     };
 
