@@ -4,7 +4,7 @@
 }
 
 .badge-navbar:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .navbar-header {
@@ -12,13 +12,14 @@
     color: white !important;
     height: 20vh !important;
     overflow-x: hidden !important;
+    font-size: 20px !important;
 }
 
 @media(max-width:576px) {
     .navbar-header {
         height: 60vh !important;
         margin: 5px !important;
-        font-size: small;
+        font-size: 20px !important;
     }
 }
 

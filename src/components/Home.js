@@ -3,12 +3,11 @@ import "./Home.css";
 import img2 from "./assets/img2.png";
 import { Stack } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
-import { Button } from "react-bootstrap";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsPhoneFlip } from "react-icons/bs";
 
 const Home = () => {
-  const words = ["Hi, I am Hari Kumar Saini. ", "I am a Frontend developer. ", "I love React, Js & Css. "];
+  const words = ["Hi, I am Hari Kumar Saini. ", "I am a Frontend Developer. ", "I love React, Js & Css. "];
   const wordRef = useRef(null);
   let wordIndex = 0;
   let letterIndex = 0;
@@ -71,20 +70,29 @@ const Home = () => {
             </div>
             <div className="self-des">
            <p>
-              Keenly focussed on good principals of developing 
-              optimized and efficient UI application.
-              Highly skilled in ReactJs,Javascript,CSS & HTML.
+            Transforming ideas into tangible, engaging experiences is what I do best. With expertise in ReactJS, Javascript, CSS, and HTML, I create interfaces that captivate and connect with users.
             </p>
             </div>
            
-            <div className="d-grid gap-2 stack-btn">
+            {/* <div className="d-grid gap-2 stack-btn">
               <Button variant="outline-info" size="lg">
                 <span className="p-2"><BsWhatsapp/></span>What's App
-            </Button>
-          <Button variant="outline-info" size="lg">
+              </Button>
+             
+          <Button variant="outline-info" size="lg" onClick={()=>window.location.href="https://www.truecaller.com/search/in/7985027344"}>
           <span className="p-2"><BsPhoneFlip/></span>Phone Call
           </Button>
-            </div>
+            </div> */}
+            <div className="d-grid gap-2 stack-btn">
+  <a href="https://wa.me/qr/ZKFQAHF4P33MI1" target="_blank" rel="noopener noreferrer" className="btn btn-outline-info btn-lg">
+    <span className="p-2"><BsWhatsapp/></span>What's App
+  </a>
+  
+  <a href="https://www.truecaller.com/search/in/7985027344" target="_blank" rel="noopener noreferrer" className="btn btn-outline-info btn-lg">
+    <span className="p-2"><BsPhoneFlip/></span>Phone Call
+  </a>
+</div>
+
             </Stack>
             </Col>
       </Row>

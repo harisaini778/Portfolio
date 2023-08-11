@@ -1,4 +1,3 @@
-import { Button } from "react-bootstrap";
 import { Row, Col, Container } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 import genericsimg from "./assets/genericsimg.png";
@@ -11,22 +10,28 @@ const Project = () => {
 
     const myProjects = [
         {
-        id: 1,
-        header :"My Restaurant Website",
-        image: mealsimg
+            id: 1,
+            header: "My Restaurant Website",
+            image: mealsimg,
+            projectLink: "https://my-restaurant-website-omega.vercel.app/",
+            gitHubLink : "https://github.com/harisaini778/My-Restaurant-Website"
     },
     {
         id: 2,
         header: "My Music Website",
-        image : genericsimg
+        image: genericsimg,
+        projectLink: "https://hari-e-commercewebsite.vercel.app/Home",
+        gitHubLink : "https://github.com/harisaini778/E-CommerceWebsite"
         },
      {
-        id: 2,
-        header: "My Music Website",
-        image : genericsimg
+        id: 3,
+        header: "My React Authorization",
+         image: genericsimg,
+         projectLink: "https://hari-e-commercewebsite.vercel.app/Home",
+        gitHubLink : "https://github.com/harisaini778/E-CommerceWebsite"
         },
       {
-        id: 2,
+        id: 4,
         header: "My Music Website",
         image : genericsimg
     },
@@ -43,20 +48,21 @@ const Project = () => {
                       <Col sm={6} md={4} lg={3} key={index}>
                           <Card className="card-project mb-1" >
                               <Card.Header className="card-project-header">
-                                  <h5>{project.header}</h5>
+                                  <h2>{project.header}</h2>
                               </Card.Header>
                               <Card.Body className="card-project-body">
                                   <Card.Img src={project.image} variant="top" />
                               </Card.Body>
                               <Card.Footer className="card-project-footer">
-                                <div className="d-grid">
-                                  <Button variant="outline-info mb-2">
-                                      Check Link
-                                  </Button>
-                                  <Button variant="outline-info mb-2">
-                                      Check Github
-                                      </Button>
-                                      </div>
+                          <div className="d-grid">
+  <a href={project.projectLink} target="_blank" rel="noopener noreferrer" className="btn btn-outline-info mb-2">
+    Check Link
+  </a>
+  <a href={project.gitHubLink} target="_blank" rel="noopener noreferrer" className="btn btn-outline-info mb-2">
+    Check Github
+  </a>
+</div>
+
                               </Card.Footer>
                           </Card>
                       </Col>)}

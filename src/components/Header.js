@@ -15,12 +15,13 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
-            <Nav.Link href="#home" className='navbar-links m-3'>Home</Nav.Link>
-            <Nav.Link href="#skills" className='navbar-links m-3'>Skills</Nav.Link>
-            <Nav.Link href="#projects" className='navbar-links m-3'>Projects</Nav.Link>
+            <Nav.Link href="Home" className='navbar-links m-3'>Home</Nav.Link>
+            <Nav.Link href="Skills" className='navbar-links m-3'>Skills</Nav.Link>
+            <Nav.Link href="Project" className='navbar-links m-3'>Projects</Nav.Link>
+            <Nav.Link href="Contact" className='navbar-links m-3'>Contact</Nav.Link>
           </Nav>
           <Nav className='ms-auto'>
-            <Stack direction="horizontal" gap={3}>
+            <Container direction="horizontal">
               <Badge className='bg-black badge-navbar'>
                 <BsGithub size={30} />
               </Badge>
@@ -36,7 +37,7 @@ const Header = () => {
               </Button>
               </Badge>
                           
-             </Stack>
+             </Container>
                       
           </Nav>
         </Navbar.Collapse>

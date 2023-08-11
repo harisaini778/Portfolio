@@ -2,7 +2,7 @@ import React from "react";
 import contactimg from "./assets/contact2.png";
 import { Container,Form,Card,Button } from "react-bootstrap";
 import "./Contact.css";
-import {BsMapFill,BsCardText,BsPhoneFlip,BsCircleFill,BsFillSendFill, BsSendFill} from "react-icons/bs";
+import {BsMapFill,BsCardText,BsPhoneFlip,BsCircleFill,BsFillSendFill} from "react-icons/bs";
 
 
 const Contact = () => {

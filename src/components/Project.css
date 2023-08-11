@@ -7,9 +7,11 @@
     margin-top: 50px;
         overflow-x: hidden !important;
 }
-.card-project-header{
-    color:white !important;
-    border: none !important;
+.card-project-header h2{
+        color: white !important;
+        font-size: 30px !important;
+        font-weight: bold !important;
+        border-bottom: 5px solid rgb(0, 183, 255) !important;
 }
 .card-project-body{
     color:white;
@@ -18,12 +20,6 @@
 .card-project-footer{
     color:white !important;
     border: none !important;
-}
-h{
-        color: white !important;
-        font-size: 40px !important;
-        font-weight: bold !important;
-        border-bottom: 5px solid white;
 }
 .img1-projects {
     margin-top: 20px;
