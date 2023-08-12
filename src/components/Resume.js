@@ -18,14 +18,12 @@ const Resume = () => {
                         <Container>
                             <Row>
                                 <Col>
-                                    <Container>
+                                    <Container className="m-1">
                                         <h2>Download Hari's Resume</h2>
                                     </Container>
                                 </Col> 
                                 <Col>
-                                    <Container>
-                                <h2><BsDownload/></h2>
-                                    </Container>    
+                                <h2><BsDownload/></h2>    
                                 </Col>
                             </Row>
                        </Container>
