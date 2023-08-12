@@ -18,10 +18,14 @@ const Resume = () => {
                         <Container>
                             <Row>
                                 <Col>
-                                  <h2>Download Hari's Resume</h2>
+                                    <Container>
+                                        <h2>Download Hari's Resume</h2>
+                                    </Container>
                                 </Col> 
                                 <Col>
-                                    <h2><BsDownload/></h2>
+                                    <Container>
+                                <h2><BsDownload/></h2>
+                                    </Container>    
                                 </Col>
                             </Row>
                        </Container>
