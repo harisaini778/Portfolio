@@ -1,0 +1,58 @@
+.img-resume {
+    margin-top: 2px !important;
+    height: 35vw;
+    width: 60vw;
+    border-radius: 100%;
+    animation: scaleFadeIn 1s ease-in-out, scrollAnimation 10s linear infinite;
+}
+
+@keyframes scaleFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+@media(max-width:576px){
+    .img-resume {
+            margin-top: 2px !important;
+            height: 80vw;
+            width: 80vw;
+            border-radius: 50%;
+            animation: scaleFadeIn 1s ease-in-out, scrollAnimation 10s linear infinite;
+        }
+    
+        @keyframes scaleFadeIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.5);
+            }
+    
+            100% {
+                opacity: 1;
+                transform: scale(1.1);
+            }
+        }
+}
+.resume-heading {
+    color: white !important;
+    font-size: 40px !important;
+    font-weight: bold !important;
+    border-bottom: 5px solid white;
+}
+.outer-div-resume{
+    background-color: black;
+    overflow-x: hidden !important;
+}
+.badge-resume{
+        margin-bottom: 40px !important;
+        transition: transform 0.3s ease;
+}
+.badge-resume:hover{
+    transform: scale(1.1);
+}
+

@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Project from './components/Project';
 import Contact from './components/Contact';
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import Resume from './components/Resume';
 
 
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='Skills' element={<Skills />} />
           <Route path='Project' element={<Project />} />
           <Route path='Contact' element={<Contact />} />
+          <Route path='Resume' element={<Resume />} />
        </Routes>
       </Router>
     </div>

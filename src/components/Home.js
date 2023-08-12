@@ -70,7 +70,7 @@ const Home = () => {
             </div>
             <div className="self-des">
            <p>
-            Transforming ideas into tangible, engaging experiences is what I do best. With expertise in ReactJS, Javascript, CSS, and HTML, I create interfaces that captivate and connect with users.
+           Guided by trust and strong development principles, I blend innovation and creativity into every project. Proficient in ReactJS, Javascript, CSS, and HTML.
             </p>
             </div>
            

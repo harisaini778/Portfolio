@@ -3,6 +3,7 @@ import { Card } from "react-bootstrap";
 import genericsimg from "./assets/genericsimg.png";
 import mealsimg from "./assets/mealsimg.png";
 import projectsimg from "./assets/projects.png";
+import reactauthimg from "./assets/react_auth_img.JPG";
 import "./Project.css";
 
 
@@ -26,9 +27,9 @@ const Project = () => {
      {
         id: 3,
         header: "My React Authorization",
-         image: genericsimg,
-         projectLink: "https://hari-e-commercewebsite.vercel.app/Home",
-        gitHubLink : "https://github.com/harisaini778/E-CommerceWebsite"
+         image: reactauthimg,
+         projectLink: "https://react-auth-harisaini778.vercel.app/LogIn",
+        gitHubLink : "https://github.com/harisaini778/ReactAuth"
         },
       {
         id: 4,

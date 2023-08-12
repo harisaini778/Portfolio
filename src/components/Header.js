@@ -15,26 +15,32 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
-            <Nav.Link href="Home" className='navbar-links m-3'>Home</Nav.Link>
-            <Nav.Link href="Skills" className='navbar-links m-3'>Skills</Nav.Link>
-            <Nav.Link href="Project" className='navbar-links m-3'>Projects</Nav.Link>
-            <Nav.Link href="Contact" className='navbar-links m-3'>Contact</Nav.Link>
+            <Nav.Link href="Home" className='navbar-links m-2'>Home</Nav.Link>
+            <Nav.Link href="Skills" className='navbar-links m-2'>Skills</Nav.Link>
+            <Nav.Link href="Project" className='navbar-links m-2'>Projects</Nav.Link>
+            <Nav.Link href="Contact" className='navbar-links m-2'>Contact</Nav.Link>
+            <Nav.Link href="Resume" className='navbar-links m-2'>Resume</Nav.Link>
           </Nav>
           <Nav className='ms-auto'>
             <Container direction="horizontal">
+              <a href='https://github.com/harisaini778' target="_blank" rel="noopener noreferrer">
               <Badge className='bg-black badge-navbar'>
                 <BsGithub size={30} />
-              </Badge>
+                </Badge>
+                </a>
             
-       
+              <a href='https://www.linkedin.com/in/hari-kumar-saini-861677183/' target="_blank" rel="noopener noreferrer">
               <Badge  className='bg-black badge-navbar'>
-                <BsLinkedin size={30} />
+              <BsLinkedin size={30} />
               </Badge>
+              </a>
     
-                <Badge className='bg-black badge-navbar'>
+              <Badge className='bg-black badge-navbar'>
+                <a href='https://wa.me/qr/ZKFQAHF4P33MI1' target="_blank" rel="noopener noreferrer">
                <Button variant='outline-light'>
                 Let's Connect <BsArrowRightCircle />
-              </Button>
+                  </Button>
+                  </a>
               </Badge>
                           
              </Container>
