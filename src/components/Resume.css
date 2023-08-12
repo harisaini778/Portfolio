@@ -1,6 +1,4 @@
-.body{
-    background-color: black !important;
-}
+
 .img-resume {
     margin-top: 2px !important;
     height: 35vw;
@@ -17,7 +15,7 @@
 
     100% {
         opacity: 1;
-        transform: scale(1.1);
+        transform: scale(1.0);
     }
 }
 @media(max-width:576px){
@@ -50,6 +48,7 @@
 .outer-div-resume{
     background-color: black;
     overflow-x: hidden !important;
+    overflow-y: hidden !important;
 }
 .badge-resume{
         margin-bottom: 40px !important;
