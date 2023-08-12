@@ -38,6 +38,10 @@
                 transform: scale(1.0);
             }
         }
+                .outer-div-resume {
+                    background-color: black;
+                    overflow:hidden !important;
+                }
 }
 .resume-heading {
     color: white !important;
@@ -47,6 +51,8 @@
 }
 .outer-div-resume{
     background-color: black;
+    width: 100vw !important;
+    height: 100vh !important;
     overflow-x: hidden !important;
     overflow-y: hidden !important;
 }

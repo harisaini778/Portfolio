@@ -7,7 +7,7 @@ import {BsDownload} from "react-icons/bs";
 const Resume = () => {
 
     return (
-        <div className="bg-black">
+        <div className="outer-div-resume">
             <Container>
             <h className="resume-heading">Resume</h>
             </Container>
