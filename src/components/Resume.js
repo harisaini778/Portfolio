@@ -1,7 +1,7 @@
 import React from "react";
 import "./Resume.css";
 import resumeimg from "./assets/resume8_img.png";
-import { Container, Badge,Row,Col } from "react-bootstrap";
+import { Container, Badge,Row,Col,Stack} from "react-bootstrap";
 import {BsDownload} from "react-icons/bs";
 
 const Resume = () => {
@@ -16,16 +16,16 @@ const Resume = () => {
                 <a>
                     <Badge variant="outline-info" className="badge-resume">
                         <Container>
-                            <Row>
-                                <Col>
+                            <Stack direction="horizontal">
+                                <div>
                                     <Container className="m-1">
                                         <h2>Download Hari's Resume</h2>
                                     </Container>
-                                </Col> 
-                                <Col>
+                                </div> 
+                                <div>
                                 <h2><BsDownload/></h2>    
-                                </Col>
-                            </Row>
+                                </div>
+                            </Stack>
                        </Container>
                </Badge>
                 </a>
