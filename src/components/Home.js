@@ -55,7 +55,7 @@ const Home = () => {
         <Col xs={12} md={12} lg={5} className="intro-des">
           <Stack gap={3}>
             <div className="modal-home">
-              <h>Welcome To Hari's Profile</h>
+              <h1>Welcome To Hari's Profile</h1>
             </div>
             <div>
               <p
