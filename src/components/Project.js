@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 import genericsimg from "./assets/genericsimg.png";
 import mealsimg from "./assets/mealsimg.png";
 import projectsimg from "./assets/projects.png";
-import reactauthimg from "./assets/react_auth_img.JPG";
+import reactauthimg from "./assets/ReactAuth_homepage.JPG";
 import "./Project.css";
 
 
