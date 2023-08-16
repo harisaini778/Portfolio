@@ -90,6 +90,7 @@
             height: 80vw;
             width: 80vw;
             border-radius: 50%;
+            margin-top: 30px !important;
             animation: scaleFadeIn 1s ease-in-out, scrollAnimation 10s linear infinite;
         }
     
