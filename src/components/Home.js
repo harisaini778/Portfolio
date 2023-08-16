@@ -7,7 +7,7 @@ import { BsWhatsapp } from "react-icons/bs";
 import { BsPhoneFlip } from "react-icons/bs";
 
 const Home = () => {
-  const words = ["Hi, I am Hari Saini.  ", "I am a Frontend Developer.  ", "React,JS,CSS : My Trio.  "];
+  const words = ["Hi, I am Hari Saini.  ", "I am a Frontend Developer.  ", "React, JS & CSS : My Trio.  "];
   const wordRef = useRef(null);
   let wordIndex = 0;
   let letterIndex = 0;
