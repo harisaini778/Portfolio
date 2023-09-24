@@ -36,7 +36,7 @@
         }
 }
 @media(max-width:768px) {
-    .modal-home {
+    .modal-home h1{
             display: flex;
             justify-content: center;
             align-self: center;
@@ -48,7 +48,7 @@
         }
 }
 @media(max-width:991px) {
-    .modal-home {
+    .modal-home h1{
             display: flex;
             justify-content: center;
             align-self: center;
@@ -61,7 +61,7 @@
 }
 
 @media(max-width:1366px) {
-    .modal-home {
+    .modal-home h1 {
         display: flex;
         justify-content: center;
         align-self: center;
