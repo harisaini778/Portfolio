@@ -5,6 +5,8 @@ import mealsimg from "./assets/mealsimg.png";
 import projectsimg from "./assets/projects.png";
 import reactauthimg from "./assets/ReactAuth_homepage.JPG";
 import expenseTracker from "./assets/expenseTracker_light.JPG";
+import reduxCounter from "./assets/ReduxCounter.JPG";
+import reduxCart from "./assets/ReduxCart.JPG";
 import "./Project.css";
 
 
@@ -38,7 +40,21 @@ const Project = () => {
           image: expenseTracker,
           projectLink:"https://expense-tracker-nu-ten.vercel.app/LogIn",
         gitHubLink : "https://github.com/harisaini778/ExpenseTracker",
-    },
+        },
+         {
+        id: 5,
+        header: "My Redux-Cart App",
+          image: reduxCart,
+          projectLink:"https://shopping-app-redux-o98v.vercel.app/",
+        gitHubLink : "https://github.com/harisaini778/ShoppingApp_Redux",
+        },
+            {
+        id: 6,
+        header: "My Redux-Counter App",
+          image: reduxCounter,
+          projectLink:"https://my-redux-project2.vercel.app/",
+        gitHubLink : "https://github.com/harisaini778/My-Redux-Project2",
+    }
 ]
   return (
       <div className="bg-black">
