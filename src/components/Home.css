@@ -17,8 +17,8 @@
         color: white;
         font-weight: bold !important;
         font-size :40px !important;
-        border: 2px solid white;
-        border-radius: 10px;
+        border: 2px solid white !important;
+        border-radius: 10px !important;
         padding: 10px !important;
 }
 @media(max-width:576px){

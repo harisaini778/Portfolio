@@ -51,7 +51,7 @@
     color: white !important;
     font-size: 40px !important;
     font-weight: bold !important;
-    border-bottom: 5px solid white;
+    border-bottom: 5px solid white !important;
 }
 .outer-div-resume{
     background-color: black;

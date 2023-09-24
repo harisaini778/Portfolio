@@ -19,7 +19,7 @@ const Resume = () => {
                             <Stack direction="horizontal">
                                 <div>
                                     <Container className="m-1">
-                                        <a href="https://drive.google.com/file/d/1KiFVqfqGkiFBMT1rjY_p5OPwiYBB62gY/view?usp=sharing"
+                                        <a href="https://drive.google.com/file/d/11FLEM1ialpPSwx-KjbOMSNMP4TL-23D0/view?usp=sharing"
                                               target="_blank"
                                             rel="noopener noreferrer" className="link-resume">
                                             <h2>Download Hari's Resume</h2>

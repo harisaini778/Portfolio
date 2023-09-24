@@ -4,6 +4,7 @@ import genericsimg from "./assets/genericsimg.png";
 import mealsimg from "./assets/mealsimg.png";
 import projectsimg from "./assets/projects.png";
 import reactauthimg from "./assets/ReactAuth_homepage.JPG";
+import expenseTracker from "./assets/expenseTracker_light.JPG";
 import "./Project.css";
 
 
@@ -33,8 +34,10 @@ const Project = () => {
         },
       {
         id: 4,
-        header: "My Music Website",
-        image : genericsimg
+        header: "My Expense Tracker App",
+          image: expenseTracker,
+          projectLink:"https://expense-tracker-nu-ten.vercel.app/LogIn",
+        gitHubLink : "https://github.com/harisaini778/ExpenseTracker",
     },
 ]
   return (
