@@ -39,6 +39,21 @@ h {
 .card-body-heading{
     line-height: 2 !important;
 }
+
+.form-control {
+
+    font-size: large !important;
+    font-weight: bold !important;
+    transition: 0.5s ease;
+
+}
+.form-control:focus {
+  
+    transform: scale(1.03);
+
+}
+
+
 @media(max-width:576px){
     .card-body-heading {
             line-height: 2 !important;

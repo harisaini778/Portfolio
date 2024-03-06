@@ -8,9 +8,30 @@
     padding-bottom: 50px !important;
 }
 .skill-card{
-    width: 80vw;
+    width: 70vw;
     border-width: 3px !important ;
 }
+
+.stack-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-image {
+
+width: 5rem;
+height: 5rem;
+border-radius: 50%;
+
+}
+
+.skill-name{
+
+    font-weight: bold;
+    font-size: larger;
+}
+
 @media(max-width:576px){
     .skill-card {
             width: 100vw;
