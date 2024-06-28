@@ -56,7 +56,7 @@ const Skills = () => {
       const windowHeight = window.innerHeight;
       const scrollY = window.scrollY;
 
-      if (offsetTop && scrollY > offsetTop - windowHeight && !initialized) {
+      if (offsetTop && scrollY > 1.5*offsetTop - windowHeight && !initialized) {
         setInitialized(true);
       }
     };
@@ -74,7 +74,7 @@ const Skills = () => {
       const windowHeight = window.innerHeight;
       const scrollY = window.scrollY;
 
-      if (offsetTop && scrollY > offsetTop - windowHeight && !initialized2) {
+      if (offsetTop && scrollY > 1.5*offsetTop - windowHeight && !initialized2) {
         setInitialized2(true);
       }
     };

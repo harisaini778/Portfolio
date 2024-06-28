@@ -1,13 +1,17 @@
 import React, { useEffect, useRef } from "react";
 import "./Home.css";
 import img2 from "./assets/img2.png";
-import { Stack } from "react-bootstrap";
+import { Container, Stack } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsPhoneFlip } from "react-icons/bs";
+import Skills from "./Skills";
+import Project from "./Project";
+import Contact from "./Contact";
+import Resume from "./Resume";
 
 const Home = () => {
-  const words = ["Hi, I am Hari Saini.  ", "I am a Full Stack Developer.  ", "React, JS & Css : My Trio.  "];
+  const words = ["Hi, I am Hari Saini.  ", "I am a Full Stack Developer.  "];
   const wordRef = useRef(null);
   let wordIndex = 0;
   let letterIndex = 0;
@@ -68,11 +72,14 @@ const Home = () => {
                 {isDeleting ? "|" : ""}
               </p>
             </div>
-            <div className="self-des">
-           <p>
-           Guided by trust and strong development principles, I blend innovation and creativity into every project. Proficient in ReactJS, Javascript, CSS, and HTML.
+           
+              <Container>
+              <p className="text-light text-start">
+               Energetic, self-driven, and quick-learning developer with a passion for using JavaScript to build innovative solutions. Experienced in frontend, backend, and full stack development. Seeking a full stack developer position to leverage my skills and continue growing in a dynamic environment.
             </p>
-            </div>
+              </Container>
+          
+         
            
             {/* <div className="d-grid gap-2 stack-btn">
               <Button variant="outline-info" size="lg">
@@ -96,6 +103,18 @@ const Home = () => {
             </Stack>
             </Col>
       </Row>
+      <Container className="mt-5">
+        <Skills/>
+      </Container>
+      <Container className="mt-5">
+      <Project/>
+      </Container>
+      <Container className="mt-5">
+      <Contact/>
+      </Container>
+      <Container className="mt-5">
+        <Resume/>
+      </Container>
     </div>
   );
 };

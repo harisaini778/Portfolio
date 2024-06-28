@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <Navbar expand="sm" className='bg-black' variant='dark'>
       <Container fluid>
-        <Navbar.Brand className='m-3'><h1>HKS</h1></Navbar.Brand>
+        <Navbar.Brand className='m-3' href='Home'><h1>HKS</h1></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
