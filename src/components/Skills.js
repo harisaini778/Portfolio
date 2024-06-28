@@ -56,7 +56,7 @@ const Skills = () => {
       const windowHeight = window.innerHeight;
       const scrollY = window.scrollY;
 
-      if (offsetTop && scrollY > 1.5*offsetTop - windowHeight && !initialized) {
+      if (offsetTop && scrollY > 1.8*offsetTop - windowHeight && !initialized) {
         setInitialized(true);
       }
     };
@@ -74,7 +74,7 @@ const Skills = () => {
       const windowHeight = window.innerHeight;
       const scrollY = window.scrollY;
 
-      if (offsetTop && scrollY > 1.5*offsetTop - windowHeight && !initialized2) {
+      if (offsetTop && scrollY > 1.8*offsetTop - windowHeight && !initialized2) {
         setInitialized2(true);
       }
     };
@@ -165,7 +165,7 @@ return (
   
    <div ref={skillsRef} className="skills-box">
      <div className="fill" style={{ width: initialized ? `${skill.percentage}%` : 0 }}>
-       {`${skill.percentage}%`}
+       {/* {`${skill.percentage}%`} */}
      </div>
    </div>
  </div>
@@ -202,7 +202,7 @@ return (
   
    <div ref={skillsRef} className="skills-box">
      <div className="fill" style={{ width: initialized ? `${skill.percentage}%` : 0 }}>
-       {`${skill.percentage}%`}
+       {/* {`${skill.percentage}%`} */}
      </div>
    </div>
  </div>

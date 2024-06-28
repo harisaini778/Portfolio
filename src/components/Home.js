@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "./Home.css";
 import img2 from "./assets/img2.png";
+import img3 from "./assets/hari_img.png"
 import { Container, Stack } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
 import { BsWhatsapp } from "react-icons/bs";
@@ -53,7 +54,7 @@ const Home = () => {
       <Row>
         <Col xs={12} md={12} lg={6}>
           <div className="img1-home">
-            <img src={img2} alt="img1" />
+            <img src={img3} alt="img1" className="rounded-circle" />
           </div>
         </Col>
         <Col xs={12} md={12} lg={5} className="intro-des">
@@ -74,7 +75,7 @@ const Home = () => {
             </div>
            
               <Container>
-              <p className="text-light text-start">
+              <p className="text-light text-start m-2">
                Energetic, self-driven, and quick-learning developer with a passion for using JavaScript to build innovative solutions. Experienced in frontend, backend, and full stack development. Seeking a full stack developer position to leverage my skills and continue growing in a dynamic environment.
             </p>
               </Container>
