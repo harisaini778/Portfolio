@@ -11,18 +11,20 @@ const Resume = () => {
             <Container>
             <h className="resume-heading">Resume</h>
             </Container>
+           
             <img src={resumeimg} className="img-resume" />
+           
             <Container>
                 <a>
                     <Badge variant="outline-info" className="badge-resume">
                         <Container>
                             <Stack direction="horizontal">
                                 <div>
-                                    <Container className="m-1">
+                                    <Container className="m-2">
                                         <a href="https://drive.google.com/file/d/1POexUk7bRzugMVkeaNY1PktQzi8qyW1N/view?usp=sharing"
                                               target="_blank"
                                             rel="noopener noreferrer" className="link-resume">
-                                            <h2>Download Hari's Resume</h2>
+                                            <h2>Download Resume</h2>
                                             </a>
                                     </Container>
                                 </div> 

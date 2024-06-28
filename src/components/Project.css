@@ -9,9 +9,9 @@
 }
 .card-project-header h2{
         color: white !important;
-        font-size: 30px !important;
+        /* font-size: 30px !important; */
         font-weight: bold !important;
-        border-bottom: 5px solid rgb(0, 183, 255) !important;
+        /* border-bottom: 5px solid rgb(0, 183, 255) !important; */
 }
 .card-project-body{
     color:white;

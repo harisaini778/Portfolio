@@ -72,13 +72,13 @@ const Contact = () => {
               <span className="m-4" style={{ color: "aqua" }}>
                 <BsCardText />
               </span>
-              harisaini607@gmail.com
+              harikumarsaini778@gmail.com
             </h3>
             <h3 className="card-body-heading">
               <span className="m-4" style={{ color: "aqua" }}>
                 <BsPhoneFlip />
               </span>
-              +91-7985027344
+              +91- 798 5027 344
             </h3>
             <h3 className="card-body-heading">
               {" "}
@@ -104,6 +104,7 @@ const Contact = () => {
               name="firstName"
               value={formValues.firstName}
               onChange={handleInputChange}
+              required
             />
             <Form.Label className="mb-2">Last Name -</Form.Label>
             <Form.Control
@@ -113,6 +114,7 @@ const Contact = () => {
               name="lastName"
               value={formValues.lastName}
               onChange={handleInputChange}
+              required
             />
             <Form.Label className="mb-2">Email Address -</Form.Label>
             <Form.Control
@@ -122,6 +124,7 @@ const Contact = () => {
               name="email"
               value={formValues.email}
               onChange={handleInputChange}
+              required
             />
             <Form.Label className="mb-2">Enter Phone Number -</Form.Label>
             <Form.Control
@@ -131,6 +134,7 @@ const Contact = () => {
               name="phoneNumber"
               value={formValues.phoneNumber}
               onChange={handleInputChange}
+              required
             />
             <Form.Label className="mb-2">Message -</Form.Label>
             <Form.Control
@@ -141,6 +145,7 @@ const Contact = () => {
               name="message"
               value={formValues.message}
               onChange={handleInputChange}
+              required
             />
           </Form.Group>
           <div className="d-flex justify-content-center mb-3">

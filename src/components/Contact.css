@@ -20,7 +20,7 @@ h {
 }
 .contact-form{
     color:white;
-    font-size: 20px;
+    font-size: 16px;
     text-align: start;
     margin: 20px !important;
     line-height: 2.0 !important;
@@ -57,7 +57,7 @@ h {
 @media(max-width:576px){
     .card-body-heading {
             line-height: 2 !important;
-            font-size: 20px !important;
+            font-size: 16px !important;
         }
 }
 @media(max-width:576px){
@@ -67,7 +67,7 @@ h {
 }
 @media(max-width:576px){
     .contact-form-container {
-            width: 95vw !important;
+            width: 90vw !important;
         }
 }
 .img1-contact {
