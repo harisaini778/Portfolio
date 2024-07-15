@@ -12,7 +12,7 @@ import Contact from "./Contact";
 import Resume from "./Resume";
 
 const Home = () => {
-  const words = ["Hi, I am Hari Saini.  ", "I am a Full Stack Developer.  "];
+  const words = ["Hi, I am Hari Saini.  ", "I am a < Full-Stack Developer />  "];
   const wordRef = useRef(null);
   let wordIndex = 0;
   let letterIndex = 0;
